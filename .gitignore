@@ -1,0 +1,24 @@
+﻿# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB & Vector Store local data
+chroma_db/
+.chroma/
+
+# Uploads & User documents
+*.pdf
+!samples/*.pdf
+temp/
+*.tmp
+
+# Secrets & Local Config
+.env
+*.log
